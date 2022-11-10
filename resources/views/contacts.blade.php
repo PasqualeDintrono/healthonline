@@ -12,25 +12,25 @@
                     <div class="lg:grid lg:grid-cols-2 lg:gap-8">
                         <div class="flex flex-col mb-4 lg:mb-0">
                             <label class="text-base font-semibold leading-none text-gray-800 dark:text-white">Name</label>
-                            <input tabindex="0" name="name" arial-label="Please input name" type="text" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-purple-900 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-100" placeholder="Please input your name" />
+                            <input tabindex="0" name="name" arial-label="Please input name" type="text" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-sky-800 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-100" placeholder="Please input your name" />
                             <span class="text-red-500">{{ $errors->first('name') }}</span>
                         </div>
                         <div class="flex flex-col mb-4 lg:mb-0">
                             <label class="text-base font-semibold leading-none text-gray-800 dark:text-white">Email Address</label>
-                            <input tabindex="0" name="email" arial-label="Please input email address" type="email" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-purple-900 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-100" placeholder="Please input email address" />
+                            <input tabindex="0" name="email" arial-label="Please input email address" type="email" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-sky-800 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-100" placeholder="Please input email address" />
                             <span class="text-red-500">{{ $errors->first('email') }}</span>
                         </div>
                         <div class="flex flex-col mb-4 lg:mb-0">
                             <label class="text-base font-semibold leading-none text-gray-800 dark:text-white">Company name</label>
-                            <input tabindex="0" name="company" role="input" arial-label="Please input company name" type="text" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-purple-900 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-100" placeholder="Please input company name" />
+                            <input tabindex="0" name="company" role="input" arial-label="Please input company name" type="text" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-sky-800 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-100" placeholder="Please input company name" />
                         </div>
                         <div class="flex flex-col mb-4 lg:mb-0">
                             <label class="text-base font-semibold leading-none text-gray-800 dark:text-white">Country</label>
-                            <input tabindex="0" name="country" arial-label="Please input country name" type="text" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-purple-900 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-100" placeholder="Please input country name" />
+                            <input tabindex="0" name="country" arial-label="Please input country name" type="text" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-sky-800 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-100" placeholder="Please input country name" />
                         </div>
                         <div class="lg:col-span-2 flex flex-col mb-4 lg:mb-0">
                             <label class="text-base font-semibold leading-none text-gray-800 dark:text-white">Message</label>
-                            <textarea tabindex="0" name="message" aria-label="Leave a message" role="textbox" class="h-36 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-purple-900 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-100 resize-none"></textarea>
+                            <textarea tabindex="0" name="message" aria-label="Leave a message" role="textbox" class="h-36 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-sky-800 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-100 resize-none"></textarea>
                             <span class="text-red-500">{{ $errors->first('message') }}</span>
                         </div>
                         <div class="lg:col-span-2 mb-4 lg:mb-0">
@@ -41,13 +41,13 @@
                             <span class="text-red-500">{{ $errors->first('acceptance') }}</span>
                         </div>
                         <div class="lg:col-span-2 flex items-center justify-center w-full">
-                            <button class="mt-9 text-base font-semibold leading-none text-white py-4 px-10 bg-purple-900 rounded hover:bg-purple-600 focus:ring-2 focus:ring-offset-2 focus:ring-purple-900 focus:outline-none">SUBMIT</button>
+                            <button class="mt-9 text-base font-semibold leading-none text-white py-4 px-10 bg-sky-800 rounded hover:bg-sky-700 focus:ring-2 focus:ring-offset-2 focus:ring-sky-800 focus:outline-none">SUBMIT</button>
                         </div>
                     </div>
                 </form>
             </div>
             @if(session('success'))
-                <div class="bg-purple-900 text-white p-4 text-center">
+                <div class="bg-sky-800 text-white p-4 text-center">
                     {{ session('success') }}
                 </div>
             @endif

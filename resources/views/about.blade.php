@@ -5,7 +5,7 @@
         <section class="w-full py-12 bg-white">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="lg:text-center">
-                    <h2 class="text-base text-purple-900 font-semibold tracking-wide uppercase">About</h2>
+                    <h2 class="text-base text-sky-800 font-semibold tracking-wide uppercase">About</h2>
                     <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-800 sm:text-4xl">Discover Krill features</p>
                     <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">Krill is a cloud CRM created for project management with Agile Scrum methodology. It also has a section dedicated to the administration of customer data, contracts and quotes. Let's go into detail</p>
                 </div>
@@ -14,7 +14,7 @@
                     <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
                         <div class="relative">
                             <dt>
-                            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-purple-900 text-white">
+                            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-sky-800 text-white">
                                 <!-- Heroicon name: outline/globe-alt -->
                                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
                             </div>
@@ -25,7 +25,7 @@
       
                         <div class="relative">
                             <dt>
-                            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-purple-900 text-white">
+                            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-sky-800 text-white">
                                 <!-- Heroicon name: outline/scale -->
                                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
                             </div>
@@ -36,7 +36,7 @@
       
                         <div class="relative">
                             <dt>
-                            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-purple-900 text-white">
+                            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-sky-800 text-white">
                                 <!-- Heroicon name: outline/lightning-bolt -->
                                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
                             </div>
@@ -47,7 +47,7 @@
       
                         <div class="relative">
                             <dt>
-                            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-purple-900 text-white">
+                            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-sky-800 text-white">
                                 <!-- Heroicon name: outline/annotation -->
                                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
                             </div>
@@ -58,7 +58,7 @@
     
                         <div class="relative">
                             <dt>
-                            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-purple-900 text-white">
+                            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-sky-800 text-white">
                                 <!-- Heroicon name: outline/annotation -->
                                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2"></path></svg>
                             </div>
@@ -133,11 +133,11 @@
             <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
                 <h2 class="text-3xl font-extrabold tracking-tight text-gray-800 sm:text-4xl">
                     <span class="block">Ready to dive in?</span>
-                    <span class="block text-purple-900">Start your free trial today.</span>
+                    <span class="block text-sky-800">Start your free trial today.</span>
                 </h2>
                 <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
                     <div class="inline-flex rounded-md shadow">
-                        <a href="/try-now" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-purple-900 hover:bg-purple-800"> Get Krill now! </a>
+                        <a href="{{route("pricing")}}" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-sky-800 hover:bg-sky-700"> Get Krill now! </a>
                     </div>
                 </div>
             </div>
