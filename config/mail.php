@@ -78,6 +78,11 @@ return [
                 'log',
             ],
         ],
+
+        'from' => [
+            'address' => 'noreply@example.com', 
+            'name' => 'Health Online'
+        ],
     ],
 
     /*

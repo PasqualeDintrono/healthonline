@@ -19,15 +19,18 @@ class ContactController extends Controller
                         'message' => 'required'
                 ]);
 
-        Mail::send('email', [
+        Mail::send('email', 
+            
+            [
                 'name' => $request->get('name'),
                 'email' => $request->get('email'),
-                'message' => $request->get('message') ],
+                'message' => $request->get('message') 
+            ],
                 
                 function ($message) {
-                        $message->from('hello@example.com');
-                        $message->to('hello@example.com', 'Your Name')
-                        ->subject('Your Website Contact Form');
+                        
+                    $message->from('hello@example.com');
+                    $message->to('hello@example.com', 'Your Name')->subject('Your Website Contact Form');
         });
 
         return back()->with('success', 'Thanks for contacting me, I will get back to you soon!');
