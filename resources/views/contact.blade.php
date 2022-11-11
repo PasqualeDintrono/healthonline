@@ -7,7 +7,7 @@
             <div class="w-full py-12 lg:px-28 px-8">
                 <p class="md:text-3xl text-xl font-bold leading-7 text-center text-gray-700 dark:text-white">Want to try Krill for free?</p>
                 <p class="mb-12 md:text-3xl text-xl font-bold leading-7 text-center text-gray-700 dark:text-white">Let’s chat and get a free trial!</p>
-                <form method="POST" action="contact-now">
+                <form method="POST" action="{{route('contactPost')}}">
                     @csrf
                     <div class="lg:grid lg:grid-cols-2 lg:gap-8">
                         <div class="flex flex-col mb-4 lg:mb-0">

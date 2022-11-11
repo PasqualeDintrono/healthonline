@@ -21,10 +21,17 @@ Route::get('/about', function () {
     return view ('about');
 })->name('about');
 
-Route::get('/contacts', function () {
-    return view ('contacts');
-})->name('contacts');
+Route::get('/contact', function () {
+    return view ('contact');
+})->name('contact');
 
 Route::get('/pricing', function () {
     return view ('pricing');
 })->name('pricing');
+
+
+/* SEND EMAIL ROUTE */
+
+Route::post('/contact', [App\Http\Controllers\ContactController::class, 'contactPost'])->name('contactPost');
+
+

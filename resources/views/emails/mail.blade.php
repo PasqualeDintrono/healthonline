@@ -1,1 +1,3 @@
-<h1>Benvenuto su Health Online</h1>
+Inquiry from: {{ $name }}
+<p> Email: {{ $email }} </p>
+<p> Message: {{ $message }} </p>

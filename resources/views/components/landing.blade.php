@@ -52,7 +52,7 @@
                         <a class="inline-block no-underline py-2 px-4 font-bold {{ request()->routeIs('landing.pricing') ? 'text-white' : 'text-gray-200 hover:text-white' }}" href="{{ route('pricing') }}" @click="isOpen = false">Pricing</a>
                     </li>
                     <li class="mr-3 pb-8 lg:pb-0">
-                        <a class="inline-block text-sky-900 no-underline py-2 px-4 font-bold rounded-lg {{ request()->routeIs('landing.try') ? 'bg-white' : 'bg-gray-100 hover:bg-white' }}" href="{{ route('contacts') }}" @click="isOpen = false">Contacts</a>
+                        <a class="inline-block text-sky-900 no-underline py-2 px-4 font-bold rounded-lg {{ request()->routeIs('landing.try') ? 'bg-white' : 'bg-gray-100 hover:bg-white' }}" href="{{ route('contact') }}" @click="isOpen = false">Contacts</a>
                     </li>
                 </ul>
             </div>
