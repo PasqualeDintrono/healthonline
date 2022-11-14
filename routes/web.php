@@ -34,4 +34,3 @@ Route::get('/pricing', function () {
 
 Route::post('/contact', [App\Http\Controllers\ContactController::class, 'contactPost'])->name('contactPost');
 
-
