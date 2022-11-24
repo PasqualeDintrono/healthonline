@@ -80,7 +80,12 @@ return [
         ],
 
         'from' => [
-            'address' => 'noreply@example.com', 
+            'address' => 'noreply@healthonline.com', 
+            'name' => 'Health Online'
+        ],
+
+        'reply_to' => [
+            'address' => 'noreply@healthonline.com', 
             'name' => 'Health Online'
         ],
     ],

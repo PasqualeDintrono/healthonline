@@ -3,25 +3,26 @@
 namespace App\Mail;
 
 use Illuminate\Bus\Queueable;
-use Illuminate\Mail\Mailable;
-use Illuminate\Mail\Mailables\Address;
-use Illuminate\Mail\Mailables\Content;
-use Illuminate\Queue\SerializesModels;
-use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Mail\Mailable;
+use Illuminate\Mail\Mailables\Content;
+use Illuminate\Mail\Mailables\Envelope;
+use Illuminate\Queue\SerializesModels;
 
 class ContactMail extends Mailable
 {
     use Queueable, SerializesModels;
 
+    public $contact;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($contact)
     {
+        $this→contact = $contact;
         //
     }
 
@@ -33,9 +34,8 @@ class ContactMail extends Mailable
     public function envelope()
     {
         return new Envelope(
-            from: new Address('noreply@gmail.com', 'Elabora'),
-            subject: 'Richiesta Informazioni',
-    );
+            subject: 'Contact Mail',
+        );
     }
 
     /**
@@ -46,7 +46,7 @@ class ContactMail extends Mailable
     public function content()
     {
         return new Content(
-            view: 'emails.userEmail',
+            view: 'view.emails.userEmail',
         );
     }
 
