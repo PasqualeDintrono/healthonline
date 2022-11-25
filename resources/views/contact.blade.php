@@ -35,7 +35,7 @@
                         </div>
                         <div class="lg:col-span-2 mb-4 lg:mb-0">
                             <div class="flex flex-row items-start md:items-center">
-                                <input type="checkbox" name="acceptance" id="acceptance" value="value">
+                                <input type="checkbox" name="acceptance" id="acceptance" value="value" required>
                                 <label class="lg:col-span-2 text-base leading-4 text-gray-600 dark:text-gray-200 ml-4" for="acceptance">You agree to our terms of service, privacy policy and how we use data as stated.</label>
                             </div>
                             <span class="text-red-500">{{ $errors->first('acceptance') }}</span>
