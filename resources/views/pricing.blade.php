@@ -64,8 +64,8 @@
                                             <span class="text-2xl font-semibold">8</span>
                                             <span class="font-light text-lg">/month</span>
                                         </p>
-{{--                                         <form method="POST" action="{{ route('landing.buy-licence') }}">
- --}}                                            @csrf
+                                        <form method="POST" action="{{ route('buy-licence') }}">
+                                            @csrf
                                             <input type="hidden" name="plan" value="enterprise">
                                             <button type="submit" class="mt-4 flex items-center justify-center rounded-lg border border-transparent bg-gray-100 hover:bg-white text-sky-800 p-2 text-base font-bold w-full">Pay now</button>
                                             <span class="text-red-500">{{ $errors->first('plan') }}</span>
@@ -105,8 +105,8 @@
                                             <span class="text-2xl font-semibold">12</span>
                                             <span class="font-light text-lg">/month</span>
                                         </p>
-{{--                                         <form method="POST" action="{{ route('landing.buy-licence') }}">
- --}}                                            @csrf
+                                        <form method="POST" action="{{ route('buy-licence') }}">
+                                            @csrf
                                             <input type="hidden" name="plan" value="full">
                                             <button type="submit" class="mt-4 flex items-center justify-center rounded-lg border border-transparent bg-sky-800 hover:opacity-90 text-white p-2 text-base font-bold w-full">Pay now</button>
                                             <span class="text-red-500">{{ $errors->first('plan') }}</span>

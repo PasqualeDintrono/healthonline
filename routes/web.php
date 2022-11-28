@@ -34,3 +34,12 @@ Route::get('/pricing', function () {
 
 Route::post('/contact', [App\Http\Controllers\ContactController::class, 'contactPost'])->name('contactPost');
 
+
+Route::post('buy-licence',[App\Http\Controllers\PaypalController::class, 'createTransaction'])->name('buy-licence');
+Route::post('process-transaction', [App\Http\Controllers\PaypalController::class, 'processTransaction'])->name('processTransaction');
+Route::get('success-transaction', [App\Http\Controllers\PaypalController::class, 'successTransaction'])->name('successTransaction');
+Route::get('cancel-transaction', [App\Http\Controllers\PaypalController::class, 'cancelTransaction'])->name('cancelTransaction');
+Route::get('/payment-status', function () {
+    return view('payment-status');
+})->name('paymentStatus');
+
