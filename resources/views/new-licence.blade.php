@@ -306,16 +306,16 @@
                              </select>
                              <span class="text-red-500">{{ $errors->first('country') }}</span>
                         </div>
-                        <hr class="bg-gray-400 mb-4">
+                        {{-- <hr class="bg-gray-400 mb-4">
                         <h2 class="text-lg text-gray-600 mb-2">Your preferred domain name</h2>
-                        <h3 class="text-md text-gray-400 mb-4">If available, we will use this name for giving you a customized way to access your Krill CRM instance. Otherwise we will generate a casual name for you.</h3>
+                        <h3 class="text-md text-gray-400 mb-4">If available, we will use this name for giving you a customized way to access your Krill CRM instance. Otherwise we will generate a casual name for you.</h3> --}}
                         <div class="flex flex-col mb-8">
-                            <label class="text-base font-semibold leading-none text-gray-800 dark:text-white" for="domain">Pick your name*</label>
+                            {{-- <label class="text-base font-semibold leading-none text-gray-800 dark:text-white" for="domain">Pick your name*</label> --}}
                             <div class="flex items-center">
-                                <input tabindex="0" name="domain" id="domain" arial-label="Es. myname.crmcloud.us (optional)" type="text" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-sky-800 mt-4 bg-gray-100 border rounded rounded-r-none border-gray-200 placeholder-gray-400 flex-1 h-12" placeholder="Es. myname.crmcloud.us (optional)" />
+{{--                                 <input tabindex="0" name="domain" id="domain" arial-label="Es. myname.crmcloud.us (optional)" type="text" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-sky-800 mt-4 bg-gray-100 border rounded rounded-r-none border-gray-200 placeholder-gray-400 flex-1 h-12" placeholder="Es. myname.crmcloud.us (optional)" />
                                 <div class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-sky-800 mt-4 border rounded rounded-l-none border-gray-200 placeholder-gray-100 h-12" style="line-height:1.4em">
                                     .crmcloud.us
-                                </div>
+                                </div> --}}
                             </div>
                             <span class="text-red-500">{{ $errors->first('domain') }}</span> 
                         </div>

@@ -45,6 +45,7 @@ class ThankYouPurchaseMail extends Mailable
         return new Content(
             view: 'emails.thankyouPurchase',
             with: [
+                
                 'first' => $this->email_values['first'],
                 'last' => $this->email_values['last'],
                 'email' => $this->email_values['email'],
