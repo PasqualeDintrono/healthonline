@@ -13,22 +13,22 @@
                         <h3 class="text-md text-gray-400 mb-4">We will use those data for completing your order and send you your Krill CRM license code.</h3>
                         <div class="flex flex-col mb-8">
                             <label class="text-base font-semibold leading-none text-gray-800 dark:text-white" for="first-name">First name*</label>
-                            <input tabindex="0" name="first-name" id="first-name" arial-label="Input your first name (required)" type="text" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-purple-900 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400 h-12" placeholder="Please input your first name (required)" required/>
+                            <input tabindex="0" name="first-name" id="first-name" arial-label="Input your first name (required)" type="text" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-sky-800 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400 h-12" placeholder="Please input your first name (required)" required/>
                             <span class="text-red-500">{{ $errors->first('name') }}</span>
                         </div>
                         <div class="flex flex-col mb-8">
                             <label class="text-base font-semibold leading-none text-gray-800 dark:text-white" for="last-name">Last name*</label>
-                            <input tabindex="0" name="last-name" id="last-name" arial-label="Input your last name (required)" type="text" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-purple-900 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400 h-12" placeholder="Please input your last name (required)" required/>
+                            <input tabindex="0" name="last-name" id="last-name" arial-label="Input your last name (required)" type="text" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-sky-800 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400 h-12" placeholder="Please input your last name (required)" required/>
                             <span class="text-red-500">{{ $errors->first('last-name') }}</span>
                         </div>
                         <div class="flex flex-col mb-8">
                             <label class="text-base font-semibold leading-none text-gray-800 dark:text-white" for="email">Email*</label>
-                            <input tabindex="0" name="email" id="email" arial-label="Input your email address (required)" type="email" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-purple-900 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400 h-12" placeholder="Please input your email address (required)" required/>
+                            <input tabindex="0" name="email" id="email" arial-label="Input your email address (required)" type="email" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-sky-800 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400 h-12" placeholder="Please input your email address (required)" required/>
                             <span class="text-red-500">{{ $errors->first('email') }}</span>
                         </div>
                         <div class="flex flex-col mb-8">
                             <label class="text-base font-semibold leading-none text-gray-800 dark:text-white" for="phone">Phone</label>
-                            <input tabindex="0" name="phone" id="phone" arial-label="Please input your phone (optional)" type="tel" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-purple-900 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400 h-12" placeholder="Please input your phone (optional)" />
+                            <input tabindex="0" name="phone" id="phone" arial-label="Please input your phone (optional)" type="tel" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-sky-800 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400 h-12" placeholder="Please input your phone (optional)" />
                             <span class="text-red-500">{{ $errors->first('phone') }}</span>
                         </div>
                         <hr class="bg-gray-400 mb-4">
@@ -36,13 +36,13 @@
                         <h3 class="text-md text-gray-400 mb-4">We will use those data for fiscal purpose.</h3>
                         <div class="flex flex-col mb-8">
                             <label class="text-base font-semibold leading-none text-gray-800 dark:text-white" for="address-1">Address*</label>
-                            <input tabindex="0" name="address-1" id="address-1" arial-label="House number and street name (required)" type="text" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-purple-900 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400 h-12" placeholder="House number and street name (required)" required/>
+                            <input tabindex="0" name="address-1" id="address-1" arial-label="House number and street name (required)" type="text" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-sky-800 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400 h-12" placeholder="House number and street name (required)" required/>
                             <span class="text-red-500">{{ $errors->first('address-1') }}</span>
-                            <input tabindex="0" name="address-2" arial-label="Apartment, suite, unit, ect. (optional)" type="text" class="mt-4 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-purple-900 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400 h-12" placeholder="Apartment, suite, unit, ect. (optional)" />
+                            <input tabindex="0" name="address-2" arial-label="Apartment, suite, unit, ect. (optional)" type="text" class="mt-4 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-sky-800 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400 h-12" placeholder="Apartment, suite, unit, ect. (optional)" />
                             <span class="text-red-500">{{ $errors->first('address-2') }}</span>
-                            <input tabindex="0" name="zip" arial-label="Postcode / ZIP (required)" type="text" class="mt-4 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-purple-900 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400 h-12" placeholder="Postcode / ZIP (required)" required/>
+                            <input tabindex="0" name="zip" arial-label="Postcode / ZIP (required)" type="text" class="mt-4 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-sky-800 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400 h-12" placeholder="Postcode / ZIP (required)" required/>
                             <span class="text-red-500">{{ $errors->first('zip') }}</span>
-                            <input tabindex="0" name="city" arial-label="Town / City (required)" type="text" class="mt-4 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-purple-900 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400 h-12" placeholder="Town / City (required)" required/>
+                            <input tabindex="0" name="city" arial-label="Town / City (required)" type="text" class="mt-4 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-sky-800 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400 h-12" placeholder="Town / City (required)" required/>
                             <span class="text-red-500">{{ $errors->first('city') }}</span>
                             <style>
                                 select:required:invalid {
@@ -55,7 +55,7 @@
                                     color: black;
                                 }
                             </style>
-                            <select id="country" class="mt-4 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-purple-900 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400 h-12" name="country" required>
+                            <select id="country" class="mt-4 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-sky-800 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-400 h-12" name="country" required>
                                 <option value="" disabled selected class="text-gray-400">Country (required)</option>
                                 <option value="Afganistan">Afghanistan</option>
                                 <option value="Albania">Albania</option>
@@ -312,8 +312,8 @@
                         <div class="flex flex-col mb-8">
                             <label class="text-base font-semibold leading-none text-gray-800 dark:text-white" for="domain">Pick your name*</label>
                             <div class="flex items-center">
-                                <input tabindex="0" name="domain" id="domain" arial-label="Es. myname.crmcloud.us (optional)" type="text" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-purple-900 mt-4 bg-gray-100 border rounded rounded-r-none border-gray-200 placeholder-gray-400 flex-1 h-12" placeholder="Es. myname.crmcloud.us (optional)" />
-                                <div class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-purple-900 mt-4 border rounded rounded-l-none border-gray-200 placeholder-gray-100 h-12" style="line-height:1.4em">
+                                <input tabindex="0" name="domain" id="domain" arial-label="Es. myname.crmcloud.us (optional)" type="text" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-sky-800 mt-4 bg-gray-100 border rounded rounded-r-none border-gray-200 placeholder-gray-400 flex-1 h-12" placeholder="Es. myname.crmcloud.us (optional)" />
+                                <div class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-sky-800 mt-4 border rounded rounded-l-none border-gray-200 placeholder-gray-100 h-12" style="line-height:1.4em">
                                     .crmcloud.us
                                 </div>
                             </div>
@@ -321,7 +321,7 @@
                         </div>
                     </div>
                     <div class="row-start-1 lg:sticky lg:top-36 self-start bg-gray-100 p-8 shadow">
-                        <h2 class="text-xl lg:text-3xl text-purple-900 font-bold">Your order</h2>
+                        <h2 class="text-xl lg:text-3xl text-sky-800 font-bold">Your order</h2>
                         <div class="flex flex-row my-16">
                             <h3 class="flex-1 text-xl text-gray-800">Plan: <span class="uppercase font-bold">{{ $plan }}</span></h3> 
                             <h3 class="text-xl font-bold">{{ $amount }}$
@@ -330,7 +330,7 @@
                             <input type="hidden" name="amount" value="{{ $amount }}" />
                             <input type="hidden" name="plan" value="{{ $plan }}" />
                             <input type="hidden" name="type" value="new" />
-                            <button class="flex-1 flex items-center justify-center rounded-lg border border-transparent bg-purple-900 hover:opacity-90 text-white p-2 text-base font-bold">Pay with PAYPAL</button>
+                            <button class="flex-1 flex items-center justify-center rounded-lg border border-transparent bg-sky-800 hover:opacity-90 text-white p-2 text-base font-bold">Pay with PAYPAL</button>
                         </div>
                     </div>
                 </form>

@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Srmklive\PayPal\Services\PayPal as PayPalClient;
+use App\Mail\NewPurchaseMail;
+use App\Mail\ThankYouPurchaseMail;
 use Illuminate\Support\Facades\Mail;
+use Srmklive\PayPal\Services\PayPal as PayPalClient;
 
 class PaypalController extends Controller
 {
@@ -91,7 +93,6 @@ class PaypalController extends Controller
         $city = $request->city;
         $country = $request->country;
         $phone = $request->phone;
-        $domain = $request->domain . '.crmcloud.us';
         $plan = $request->plan;
         $type = $request->type;
 
@@ -102,6 +103,22 @@ class PaypalController extends Controller
 
         if (isset($response['status']) && $response['status'] == 'COMPLETED') {
             // Invia una mail al cliente e una mail all'amministratore.
+            $email_values = [
+                'first' => $first_name,
+                'last' => $last_name,
+                'email' => $email,
+                'phone' => $phone,
+                'add1' => $address_1,
+                'add2' => $address_2,
+                'zip' => $zip,
+                'city' => $city,
+                'country' => $country,
+                'plan' => $plan,
+                'type' => $type,
+            ];
+            Mail::to('amministrazione@healthonline.com')->send(new NewPurchaseMail($email_values));
+
+            Mail::to($email)->send(new ThankYouPurchaseMail($email_values));
 
             $request->session()->put('end_success', $first_name . ', your payment has been received.');
             return redirect()->route('paymentStatus')->with('first_name');
