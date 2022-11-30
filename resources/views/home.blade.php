@@ -5,7 +5,7 @@
         <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
             <div class="relative px-4 xl:px-0 container mx-auto md:flex items-center gap-8">
                 <div class="text-color w-full md:w-1/3 pt-16 lg:pt-32 xl:pt-12">
-                    <h1 class="text-4xl md:text-4xl lg:text-6xl w-11/12 lg:w-11/12 xl:w-full xl:text-6xl text-gray-200 font-extrabold f-f-l">How is your team working?</h1>
+                    <h1 class="text-4xl md:text-4xl lg:text-6xl w-11/12 lg:w-11/12 xl:w-full xl:text-6xl text-gray-200 font-extrabold f-f-l">{{trans('home.h1header')}}</h1>
                     <div class="f-f-r text-base lg:text-base pb-20 sm:pb-0 pt-10 xl:pt-6">
                         <h2 class="text-gray-200">Is the project on schedule? Do you want to monitor activity with customers and prospects? Choose Krill and take your company to the clouds.</h2>
                     </div>
