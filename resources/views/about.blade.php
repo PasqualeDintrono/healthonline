@@ -6,7 +6,7 @@
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="lg:text-center">
                     <h2 class="text-base text-sky-800 font-semibold tracking-wide uppercase">About</h2>
-                    <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-800 sm:text-4xl">Discover Krill features</p>
+                    <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-800 sm:text-4xl">{{trans('about.h1header')}}</p>
                     <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">Krill is a cloud CRM created for project management with Agile Scrum methodology. It also has a section dedicated to the administration of customer data, contracts and quotes. Let's go into detail</p>
                 </div>
       
