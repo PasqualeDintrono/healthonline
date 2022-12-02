@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ config('app.name') }}
 </title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"/>
 <script src="//cdn.tailwindcss.com"></script>
 <script src="//unpkg.com/alpinejs" defer></script>
 </head>
@@ -54,6 +55,13 @@
                     </li>
                     <li class="mr-3 pb-8 lg:pb-0">
                         <a class="inline-block text-sky-900 no-underline py-2 px-4 font-bold rounded-lg {{ request()->routeIs('landing.try') ? 'bg-white' : 'bg-gray-100 hover:bg-white' }}" href="{{ route('contact') }}" @click="isOpen = false">Contacts</a>
+                    </li>
+                    </li>
+                        <li class="mr-3 pb-8 lg:pb-0">
+                        @include('partials._locale', ['lang' => 'es', 'nations' => 'es'])                      
+                    </li>
+                    <li class="mr-3 pb-8 lg:pb-0">
+                        @include('partials._locale', ['lang' => 'en', 'nations' => 'gb'])                                            
                     </li>
                 </ul>
             </div>

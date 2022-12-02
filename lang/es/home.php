@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'h1header' => 'Come sta lavorando il tuo team?'
+    'h1header' => '¿Cómo está trabajando tu equipo?'
 
 ];

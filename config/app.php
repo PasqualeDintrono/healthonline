@@ -84,10 +84,10 @@ return [
 
     'locale' => 'es',
 
-    'available_locales' => [
+    /* 'available_locales' => [
         'Spanish' => 'es',
         'English' => 'en',
-      ],
+      ], */
 
     /*
     |--------------------------------------------------------------------------

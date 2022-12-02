@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 */
 //Change Language//
 
-Route::get('language/{locale}', function ($locale) {
+/* Route::get('language/{locale}', function ($locale) {
     app()->setLocale($locale);
     session()->put('locale', $locale);
     return redirect()->back();
@@ -48,7 +47,11 @@ Route::get('language/payment-status{locale}', function ($locale) {
     app()->setLocale($locale);
     session()->put('locale', $locale);
     return redirect()->back();
-});
+}); */
+
+/* Route::post('/locale/{locale}', 'PublicController@locale')->name('locale');
+ */
+Route::post('/locale/{locale}', [App\Http\Controllers\PublicController::class, 'locale'])->name('locale');
 
 
 Route::get('/', function () {
