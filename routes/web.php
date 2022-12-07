@@ -12,45 +12,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 //Change Language//
-
-/* Route::get('language/{locale}', function ($locale) {
-    app()->setLocale($locale);
-    session()->put('locale', $locale);
-    return redirect()->back();
-});
-
-Route::get('language/about{locale}', function ($locale) {
-    app()->setLocale($locale);
-    session()->put('locale', $locale);
-    return redirect()->back();
-});
-
-Route::get('language/contact{locale}', function ($locale) {
-    app()->setLocale($locale);
-    session()->put('locale', $locale);
-    return redirect()->back();
-});
-
-Route::get('language/pricing{locale}', function ($locale) {
-    app()->setLocale($locale);
-    session()->put('locale', $locale);
-    return redirect()->back();
-});
-
-Route::get('language/new-licence{locale}', function ($locale) {
-    app()->setLocale($locale);
-    session()->put('locale', $locale);
-    return redirect()->back();
-});
-
-Route::get('language/payment-status{locale}', function ($locale) {
-    app()->setLocale($locale);
-    session()->put('locale', $locale);
-    return redirect()->back();
-}); */
-
-/* Route::post('/locale/{locale}', 'PublicController@locale')->name('locale');
- */
 Route::post('/locale/{locale}', [App\Http\Controllers\PublicController::class, 'locale'])->name('locale');
 
 
@@ -72,10 +33,9 @@ Route::get('/pricing', function () {
 
 
 /* SEND EMAIL ROUTE */
-
 Route::post('/contact', [App\Http\Controllers\ContactController::class, 'contactPost'])->name('contactPost');
 
-
+//Paypal route //
 Route::post('buy-licence',[App\Http\Controllers\PaypalController::class, 'createTransaction'])->name('buy-licence');
 Route::post('process-transaction', [App\Http\Controllers\PaypalController::class, 'processTransaction'])->name('processTransaction');
 Route::get('success-transaction', [App\Http\Controllers\PaypalController::class, 'successTransaction'])->name('successTransaction');
